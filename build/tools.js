@@ -8,7 +8,7 @@ import fa_xmark from '@fortawesome/fontawesome-free/svgs/solid/xmark.svg';
 import showMessage from './message.js';
 function showHitokoto() {
     // 增加 hitokoto.cn 的 API
-    fetch('https://v1.hitokoto.cn')
+    fetch('https://v1.hitokoto.cn', { mode: 'no-cors' })
         .then(function (response) { return response.json(); })
         .then(function (result) {
         var text = "\u8FD9\u53E5\u4E00\u8A00\u6765\u81EA <span>\u300C".concat(result.from, "\u300D</span>\uFF0C\u662F <span>").concat(result.creator, "</span> \u5728 hitokoto.cn \u6295\u7A3F\u7684\u3002");
