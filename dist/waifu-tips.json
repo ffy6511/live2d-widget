@@ -36,7 +36,7 @@
     "selector": ".menu-item-categories a",
     "text": ["文章都分类好啦～", "点击来查看文章分类哦。"]
   }, {
-    "selector": "a.nav-link[href='/archives/']",
+    "selector": ".nav-link .icon-archive-fill, .nav-link:has(span:contains('归档'))",
     "text": ["翻页比较麻烦吗，那就来看看文章归档吧。", "文章目录都整理在这里啦！"]
   }, {
     "selector": ".menu-item-friends a",
