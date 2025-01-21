@@ -24,19 +24,19 @@
     "selector": "#waifu-tool-quit",
     "text": ["到了要说再见的时候了吗？", "呜呜 QAQ 后会有期……", "不要抛弃我呀……", "我们，还能再见面吗……", "哼，你会后悔的！"]
   }, {
-    "selector": "#navbarSupportedContent > ul > li:nth-child(2) > a",
+    "selector": "a[href^='/']",
     "text": ["点击前往首页，想回到上一页可以使用浏览器的后退功能哦。", "点它就可以回到首页啦！", "回首页看看吧。"]
   }, {
-    "selector": "#navbarSupportedContent > ul > li:nth-child(6) > a",
+    "selector": "a[href^='/about/']",
     "text": ["你想知道我家主人是谁吗？", "这里有一些关于我家主人的秘密哦，要不要看看呢？", "发现主人出没地点！"]
   }, {
-    "selector": ".menu-item-tags a",
+    "selector": "a[href^='/tags/']",
     "text": ["点击就可以看文章的标签啦！", "点击来查看所有标签哦。"]
   }, {
-    "selector": "#navbarSupportedContent > ul > li:nth-child(4) > a",
+    "selector": "a[href^='/categories/']",
     "text": ["文章都分类好啦～", "点击来查看文章分类哦。"]
   }, {
-    "selector": "a.nav-link[href*='/archives']",
+    "selector": "a[href^='/archives/']",
     "text": ["翻页比较麻烦吗，那就来看看文章归档吧。", "文章目录都整理在这里啦！"]
   }, {
     "selector": ".menu-item-friends a",
@@ -78,13 +78,13 @@
     "selector": "a[href^='mailto']",
     "text": ["邮件我会及时回复的！", "点击就可以发送邮件啦～"]
   }, {
-    "selector": "#navbarSupportedContent > ul > li:nth-child(5) > a",
-    "text": ["要去看看 <span>{text}</span> 标签么？", "点它可以查看此标签下的所有文章哟！"]
+    "selector": "a[href^='/tags/']",
+    "text": ["要去看看<strong>标签</strong>么？", "点它可以查看此标签下的所有文章哟！"]
   }, {
-    "selector": "a[href^='/categories/']",
-    "text": ["要去看看 <span>{text}</span> 分类么？", "点它可以查看此分类下的所有文章哟！"]
+    "selector": ".category-item",
+    "text": ["要去看看不同的文章分类么？", "点它可以查看此分类下的所有文章哟！"]
   }, {
-    "selector": ".post-title-link",
+    "selector": ".list-group-item",
     "text": ["要看看 <span>{text}</span> 这篇文章吗？"]
   }, {
     "selector": "a[rel='contents']",
