@@ -24,19 +24,19 @@
     "selector": "#waifu-tool-quit",
     "text": ["到了要说再见的时候了吗？", "呜呜 QAQ 后会有期……", "不要抛弃我呀……", "我们，还能再见面吗……", "哼，你会后悔的！"]
   }, {
-    "selector": "a[href^='/']",
+    "selector": "#home",
     "text": ["点击前往首页，想回到上一页可以使用浏览器的后退功能哦。", "点它就可以回到首页啦！", "回首页看看吧。"]
   }, {
-    "selector": "a[href^='/about/']",
+    "selector": "#about",
     "text": ["你想知道我家主人是谁吗？", "这里有一些关于我家主人的秘密哦，要不要看看呢？", "发现主人出没地点！"]
   }, {
-    "selector": "a[href^='/tags/']",
+    "selector": "#tag",
     "text": ["点击就可以看文章的标签啦！", "点击来查看所有标签哦。"]
   }, {
-    "selector": "a[href^='/categories/']",
+    "selector": "#category",
     "text": ["文章都分类好啦～", "点击来查看文章分类哦。"]
   }, {
-    "selector": ".nav-item .nav-link[href^='/archives/']",
+    "selector": "#archive",
     "text": ["翻页比较麻烦吗，那就来看看文章归档吧。", "文章目录都整理在这里啦！"]
   }, {
     "selector": ".menu-item-friends a",
