@@ -36,7 +36,7 @@
     "selector": "a[href^='/categories/']",
     "text": ["文章都分类好啦～", "点击来查看文章分类哦。"]
   }, {
-    "selector": "#navbarSupportedContent > ul > li:nth-child(3) > a",
+    "selector": ".nav-item .nav-link[href^='/archives/']",
     "text": ["翻页比较麻烦吗，那就来看看文章归档吧。", "文章目录都整理在这里啦！"]
   }, {
     "selector": ".menu-item-friends a",
